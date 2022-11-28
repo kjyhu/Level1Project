@@ -1,3 +1,4 @@
+/*Sammy Hu, Web Dev Odd 7&8, 11/28/22, Count de Money*/
 function initialize() {
     pennies = document.getElementById("penny");
     nickels = document.getElementById("nickel");
