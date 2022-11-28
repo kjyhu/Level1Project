@@ -72,7 +72,7 @@ function display() {
     quarters.innerHTML = quarter;
     pennyValue = Math.round(0.01 * penny * 100)/100;
     nickelValue = Math.round(0.05 * nickel * 100)/100;
-    dimeValue = Math.round(0.1 * dime * 100)/100;
+    dimeValue = Math.round(0.10 * dime * 100)/100;
     quarterValue = Math.round(0.25 * quarter * 100)/100;
     total = Math.round((pennyValue + nickelValue + dimeValue + quarterValue)*100)/100;
     pValue.innerHTML = pennyValue;
